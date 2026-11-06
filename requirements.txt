@@ -1,34 +1,26 @@
 # ══════════════════════════════════════════════════════════════════
-# requirements.txt  —  works for both local dev and Streamlit Cloud
+# requirements.txt — Streamlit Cloud compatible (Python 3.11)
 # ══════════════════════════════════════════════════════════════════
 
 # Streamlit
 streamlit==1.40.2
 
-# Web framework (local dev only — unused by Streamlit Cloud)
-fastapi==0.115.5
-uvicorn[standard]==0.32.1
-python-multipart==0.0.12
-jinja2==3.1.4
-aiofiles==24.1.0
-
 # IBM watsonx.ai (mandatory)
 ibm-watsonx-ai==1.1.9
 ibm-cloud-sdk-core==3.22.0
 
-# LangChain stack (pinned for Python 3.11 compatibility)
+# LangChain stack
 langchain==0.3.7
 langchain-community==0.3.5
 langchain-ibm==0.3.3
 langchain-text-splitters==0.3.2
-langchain-chroma==0.1.4
+
+# Vector store (lighter chromadb build)
+chromadb==0.4.24
+
+# Embeddings (no torch dependency)
 langchain-huggingface==0.1.2
-
-# Vector store
-chromadb==0.5.18
-
-# Embeddings / ML
-sentence-transformers==3.3.1
+sentence-transformers==2.7.0
 
 # Document parsing
 pypdf==4.3.1
