@@ -1,0 +1,81 @@
+NAAC ACCREDITATION GUIDELINES – CRITERION 2: TEACHING-LEARNING & EVALUATION
+=============================================================================
+
+2.1 Student Enrollment and Profile
+------------------------------------
+Metric 2.1.1: Demand Ratio = (Number of seats filled / Sanctioned intake) × 100
+
+The institution must demonstrate:
+- Transparent admission process
+- Reservation policy adherence (SC/ST/OBC/EWS/PwD)
+- Diversity in student enrollment (state/national level)
+
+Key Evidence:
+- Admission data for past 5 years
+- Reservation category-wise enrollment data
+- State/UT-wise student data
+- First-generation college-goers percentage
+
+2.2 Catering to Student Diversity
+-----------------------------------
+Institutions should have mechanisms to:
+- Identify slow and advanced learners through diagnostic tests
+- Provide bridge/remedial courses for weaker students
+- Offer advanced learning resources for meritorious students
+- Use Student Satisfaction Survey (SSS) outcomes
+
+Metric 2.2.1: Student-Teacher Ratio (STR)
+- Ideal STR for general programmes: 25:1
+- Sciences/Professional: 20:1
+- Engineering: 15:1
+
+2.3 Teaching-Learning Process
+-------------------------------
+Modern Pedagogical Methods to be documented:
+1. Experiential Learning: field visits, internships, project-based learning
+2. Participative Learning: seminars, group discussions, role-play
+3. Problem-solving Methodology: case studies, design thinking workshops
+4. ICT-enabled teaching: smart classrooms, LMS (Moodle/SWAYAM)
+5. Flipped Classroom methodology
+
+Metric 2.3.1: Student-centric methods used for enhancing learning experiences
+Evidence: Photographs, attendance records, student reports, faculty declarations
+
+2.4 Teacher Profile and Quality
+---------------------------------
+Metric 2.4.1: Percentage of full-time teachers against sanctioned posts
+Metric 2.4.2: Percentage of teachers with NET/SET/SLET/Ph.D.
+Metric 2.4.3: Teachers' experience in industry/institutions of higher learning
+
+Average annual days for teachers in FDP (Faculty Development Programmes):
+- ≥15 days → 4
+- 10-15 days → 3
+- 5-10 days → 2
+- <5 days → 1
+
+2.5 Evaluation Process and Reforms
+------------------------------------
+The institution should demonstrate:
+- Transparency in evaluation process
+- Grievance redressal mechanism for examination
+- IT-enabled examination management
+- Continuous Internal Assessment (CIA) system
+- Automated result processing
+
+Metric 2.5.1: Mechanism of Internal Assessment is transparent and robust
+Evidence: Examination Manual, IA marks display records, grievance records
+
+2.6 Student Performance and Learning Outcomes
+----------------------------------------------
+Programme Outcomes (POs) must be:
+1. Clearly defined for every programme
+2. Mapped to Course Outcomes (COs)
+3. Assessed through direct and indirect methods
+4. Used to drive curriculum improvement (feedback loop)
+
+Graduate Attributes expected:
+- Critical thinking and problem-solving
+- Communication and teamwork
+- Ethical and social responsibility
+- Life-long learning aptitude
+=============================================================================

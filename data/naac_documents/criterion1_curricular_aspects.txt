@@ -1,0 +1,62 @@
+NAAC ACCREDITATION GUIDELINES – CRITERION 1: CURRICULAR ASPECTS
+=================================================================
+
+1.1 Curriculum Design and Development
+--------------------------------------
+The institution should demonstrate its commitment to curriculum design that is aligned with 
+the vision and mission of the institution, regulatory guidelines, and NEP 2020 requirements.
+
+Key Metrics (1.1.1):
+- Percentage of programmes that include experiential learning
+- Industry/employer involvement in curriculum design
+- Number of online courses offered (MOOCs, NPTEL, Coursera)
+- Percentage of courses with Choice Based Credit System (CBCS)
+
+Evidence Required:
+- Minutes of BOS (Board of Studies) meetings
+- Curriculum revision records (last 5 years)
+- MoU copies with industries for curriculum input
+- List of online courses with enrollment data
+- NEP 2020 implementation plan
+
+Best Practices for Criterion 1:
+- Form an Academic Advisory Board with 40% industry representation
+- Review curriculum every 2 years with graduate feedback
+- Map every course to specific Programme Outcomes (POs)
+- Implement outcome-based education (OBE) framework
+
+1.2 Academic Flexibility
+-------------------------
+Institutions must provide academic flexibility to students including:
+- Horizontal mobility between programmes
+- Vertical progression pathways
+- Integration of vocational courses
+- Multiple entry/exit options as per NEP 2020
+
+Metric 1.2.1: Percentage of students enrolled in subject-related Certificate/Diploma/Add-on programmes
+
+Formula = (Number of students enrolled in Certificate/Diploma programmes / 
+           Total number of students enrolled) × 100
+
+Grading Scale:
+- >50%  → 4 (Excellent)
+- 40-50% → 3 (Good)
+- 30-40% → 2 (Average)
+- <30%  → 1 (Below Average)
+
+1.3 Curriculum Enrichment
+--------------------------
+- Value-added courses should cover: professional skills, life skills, gender sensitization, 
+  environmental education, human values, professional ethics
+- At least 30% of courses should integrate crosscutting issues
+
+1.4 Feedback System
+--------------------
+Institutions should collect feedback on curriculum from:
+1. Students (current and alumni)
+2. Teachers
+3. Employers and industry experts
+4. Academic peers
+
+The feedback should be analyzed, and action taken reports must be documented.
+=================================================================

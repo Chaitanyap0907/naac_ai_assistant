@@ -1,0 +1,67 @@
+NAAC ACCREDITATION GUIDELINES – CRITERION 3: RESEARCH, INNOVATIONS & EXTENSION
+================================================================================
+
+3.1 Resource Mobilization for Research
+----------------------------------------
+Institutions should demonstrate a research culture through:
+- Dedicated research promotion policy
+- Seed money provided to faculty for research
+- Percentage of teachers with ongoing projects
+- Research facilities and laboratories
+
+Metric 3.1.1: Grants received from Government/non-government bodies for R&D projects
+Formula: Total grants (Rs. in Lakhs) / Number of teachers
+
+Grading:
+- >3 Lakhs per teacher → 4
+- 2-3 Lakhs → 3
+- 1-2 Lakhs → 2
+- <1 Lakh → 1
+
+3.2 Innovation Ecosystem
+--------------------------
+Key indicators:
+- Incubation centre with number of start-ups nurtured
+- Awards/recognition for innovation (Hackathons, ARIIA ranking)
+- IPR policy and number of patents filed/granted
+- Technology Transfer records
+
+Metric 3.2.2: Workshops/Seminars conducted on Research Methodology/IPR/Entrepreneurship
+Evidence: Event reports, participant certificates, photographs, feedback forms
+
+3.3 Research Publications and Awards
+--------------------------------------
+Metric 3.3.1: Number of Ph.D. registered per eligible teacher
+Metric 3.3.2: Number of research publications in peer-reviewed journals
+
+Publication Quality Indicators:
+- Scopus/Web of Science indexed publications
+- H-index and citations
+- Books and book chapters with ISBN
+- Conference proceedings (IEEE, ACM, Springer)
+
+3.4 Extension Activities
+--------------------------
+Community engagement through:
+- NSS (National Service Scheme) activities
+- NCC activities
+- Extension and outreach programmes
+- Collaboration with community/NGOs
+
+Metric 3.4.2: Awards/recognitions received for extension activities
+Metric 3.4.3: Number of extension activities conducted with government/government recognized bodies
+
+3.5 Collaboration
+------------------
+MoUs and linkages with:
+- National institutions (IITs, NITs, Central Universities)
+- International institutions
+- Industries and corporate bodies
+- R&D organizations (CSIR, DRDO, ISRO, DST)
+
+Benefits from collaborations:
+- Faculty development programmes
+- Student exchange programmes
+- Research project collaboration
+- Industry internships and placements
+================================================================================

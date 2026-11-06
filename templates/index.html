@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAAC Accreditation AI Assistant</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-area">
+                <div class="ibm-badge">IBM watsonx.ai</div>
+                <div class="title-area">
+                    <h1>NAAC Accreditation AI Assistant</h1>
+                    <p class="subtitle">Powered by IBM Granite · RAG (ChromaDB) · NAAC Guidelines</p>
+                </div>
+            </div>
+            <div class="status-indicator" id="statusIndicator">
+                <span class="dot"></span> Ready
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layout -->
+    <main class="main-container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <h3>Quick Actions</h3>
+            <div class="action-buttons">
+                <button class="action-btn" onclick="setMode('qa')">
+                    <span class="icon">❓</span>
+                    <span>Ask a Question</span>
+                </button>
+                <button class="action-btn" onclick="setMode('ssr')">
+                    <span class="icon">📝</span>
+                    <span>Draft SSR Section</span>
+                </button>
+                <button class="action-btn" onclick="setMode('criteria')">
+                    <span class="icon">📋</span>
+                    <span>Criteria-Wise Inputs</span>
+                </button>
+                <button class="action-btn" onclick="setMode('practice')">
+                    <span class="icon">⭐</span>
+                    <span>Best Practices</span>
+                </button>
+                <button class="action-btn" onclick="setMode('upload')">
+                    <span class="icon">📁</span>
+                    <span>Upload Document</span>
+                </button>
+            </div>
+
+            <div class="criteria-list">
+                <h3>NAAC Criteria</h3>
+                <ul>
+                    <li onclick="quickCriteria('1')">📘 C1 – Curricular Aspects</li>
+                    <li onclick="quickCriteria('2')">📗 C2 – Teaching-Learning</li>
+                    <li onclick="quickCriteria('3')">📙 C3 – Research & Extension</li>
+                    <li onclick="quickCriteria('4')">📕 C4 – Infrastructure</li>
+                    <li onclick="quickCriteria('5')">📓 C5 – Student Support</li>
+                    <li onclick="quickCriteria('6')">📔 C6 – Governance</li>
+                    <li onclick="quickCriteria('7')">📒 C7 – Values & Practices</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <section class="chat-area">
+            <!-- Mode Panel -->
+            <div class="mode-panel" id="modePanel">
+                <!-- Q&A Panel -->
+                <div id="qaPanel" class="panel active">
+                    <h3>Ask a NAAC Question</h3>
+                    <div class="input-group">
+                        <textarea id="qaInput" placeholder="e.g., What evidence is required for Metric 3.3.2? What is the formula for calculating STR?..." rows="3"></textarea>
+                        <button class="submit-btn" onclick="submitQA()">Ask Granite AI</button>
+                    </div>
+                </div>
+
+                <!-- SSR Draft Panel -->
+                <div id="ssrPanel" class="panel">
+                    <h3>Draft SSR Section</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label>Criterion Number</label>
+                            <select id="ssrCriterion">
+                                <option value="1">1 – Curricular Aspects</option>
+                                <option value="2">2 – Teaching-Learning & Evaluation</option>
+                                <option value="3">3 – Research, Innovations & Extension</option>
+                                <option value="4">4 – Infrastructure & Learning Resources</option>
+                                <option value="5">5 – Student Support & Progression</option>
+                                <option value="6">6 – Governance, Leadership & Management</option>
+                                <option value="7">7 – Institutional Values & Best Practices</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Section Name</label>
+                            <input type="text" id="ssrSection" placeholder="e.g., Curriculum Design and Development">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Institution-Specific Data (optional)</label>
+                        <textarea id="ssrData" placeholder="e.g., We have 45 programmes, 1200 students, 68 faculty members, 3 MoUs with NASSCOM..." rows="3"></textarea>
+                    </div>
+                    <button class="submit-btn" onclick="submitSSR()">Generate SSR Draft</button>
+                </div>
+
+                <!-- Criteria Panel -->
+                <div id="criteriaPanel" class="panel">
+                    <h3>Criteria-Wise Inputs</h3>
+                    <div class="form-group">
+                        <label>Select Criterion</label>
+                        <select id="criteriaNum">
+                            <option value="1">Criterion 1 – Curricular Aspects</option>
+                            <option value="2">Criterion 2 – Teaching-Learning & Evaluation</option>
+                            <option value="3">Criterion 3 – Research, Innovations & Extension</option>
+                            <option value="4">Criterion 4 – Infrastructure & Learning Resources</option>
+                            <option value="5">Criterion 5 – Student Support & Progression</option>
+                            <option value="6">Criterion 6 – Governance, Leadership & Management</option>
+                            <option value="7">Criterion 7 – Institutional Values & Best Practices</option>
+                        </select>
+                    </div>
+                    <button class="submit-btn" onclick="submitCriteria()">Get Criteria Inputs</button>
+                </div>
+
+                <!-- Best Practice Panel -->
+                <div id="practicePanel" class="panel">
+                    <h3>Best Practice Documentation</h3>
+                    <div class="form-group">
+                        <label>Domain / Activity</label>
+                        <input type="text" id="practiceInput" placeholder="e.g., Student Mentoring Program, Green Campus Initiative, Industry Connect Cell...">
+                    </div>
+                    <button class="submit-btn" onclick="submitPractice()">Generate Documentation</button>
+                </div>
+
+                <!-- Upload Panel -->
+                <div id="uploadPanel" class="panel">
+                    <h3>Upload NAAC Document</h3>
+                    <div class="form-group">
+                        <label>Document Category</label>
+                        <select id="uploadCategory">
+                            <option value="naac_guidelines">NAAC Guidelines</option>
+                            <option value="ssr_templates">SSR Templates</option>
+                            <option value="reports">Past Reports</option>
+                        </select>
+                    </div>
+                    <div class="upload-zone" id="uploadZone">
+                        <input type="file" id="fileInput" accept=".pdf,.docx,.txt,.md" hidden>
+                        <div onclick="document.getElementById('fileInput').click()">
+                            <p>📂 Click to select or drag & drop</p>
+                            <p class="muted">Supported: PDF, DOCX, TXT, MD</p>
+                        </div>
+                    </div>
+                    <div id="filePreview" class="file-preview hidden"></div>
+                    <button class="submit-btn" onclick="uploadDocument()">Upload & Index</button>
+                </div>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chatMessages">
+                <div class="message assistant">
+                    <div class="message-header">
+                        <span class="avatar">🤖</span>
+                        <span class="sender">NAAC Assistant <small>(IBM Granite)</small></span>
+                    </div>
+                    <div class="message-body">
+                        Welcome! I am your NAAC Accreditation AI Assistant powered by <strong>IBM Granite</strong> on watsonx.ai.
+                        <br><br>
+                        I can help you with:
+                        <ul>
+                            <li>📝 <strong>SSR Drafting</strong> – Generate complete Self Study Report sections</li>
+                            <li>📋 <strong>Criteria Inputs</strong> – Get metrics, evidence requirements, and grading guidance</li>
+                            <li>⭐ <strong>Best Practices</strong> – Document institutional best practices in NAAC format</li>
+                            <li>❓ <strong>Q&A</strong> – Ask any NAAC accreditation question</li>
+                        </ul>
+                        Select an action from the left panel to get started!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

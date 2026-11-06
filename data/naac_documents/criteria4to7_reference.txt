@@ -1,0 +1,94 @@
+NAAC CRITERIA 4–7 QUICK REFERENCE
+====================================
+
+CRITERION 4: INFRASTRUCTURE AND LEARNING RESOURCES
+---------------------------------------------------
+4.1 Physical Facilities
+  - Adequate classrooms, labs, sports facilities
+  - Barrier-free environment for persons with disabilities
+  - Green campus / energy conservation measures
+  Metric 4.1.2: Expenditure for infrastructure augmentation ≥ 2 Crore/year → Grade A
+
+4.2 Library as a Learning Resource
+  - Library automation (KOHA/SOUL/LibSys)
+  - e-resources: INFLIBNET/DELNET/N-LIST subscription
+  - Footfall data and library usage statistics
+  Metric 4.2.2: Expenditure on library resources
+
+4.3 IT Infrastructure
+  - Internet bandwidth ≥ 1 Gbps for Grade A+
+  - Student computing units per student
+  - Wi-Fi campus coverage
+  - LMS (Learning Management System) adoption rate
+
+4.4 Maintenance of Campus Infrastructure
+  - Annual expenditure on maintenance ≥ 10% of total budget
+  - Physical and academic support facilities maintained
+
+CRITERION 5: STUDENT SUPPORT AND PROGRESSION
+---------------------------------------------
+5.1 Student Support
+  - Government/institutional scholarships and freeships
+  - Capacity building and skill enhancement programmes
+  - Anti-ragging measures and student grievance cell
+  - Career counseling and placement support
+
+5.2 Student Progression
+  - Progression to higher education
+  - Students qualified in national-level examinations (GATE/NET/CAT)
+  - Placements (campus recruitment) statistics
+  - Entrepreneurship development and startups by students
+
+5.3 Student Participation and Activities
+  - Sports and cultural activities at national/international level
+  - Student council and representation
+  - Alumni association engagement
+
+CRITERION 6: GOVERNANCE, LEADERSHIP & MANAGEMENT
+--------------------------------------------------
+6.1 Institutional Vision and Leadership
+  - Strategic Plan and deployment documents
+  - Participative management through committees
+
+6.2 Strategy Development and Deployment
+  - IQAC (Internal Quality Assurance Cell) functionality
+  - e-governance in administration (ERP systems)
+  - Annual Quality Assurance Reports (AQARs)
+
+6.3 Faculty Empowerment Strategies
+  - Welfare schemes for faculty/staff
+  - Performance appraisal system
+  - Average number of training/FDP days per teacher per year
+
+6.4 Financial Management and Resource Mobilization
+  - Audited financial statements
+  - Resource mobilization beyond fees
+  - Utilization of funds for academic quality
+
+CRITERION 7: INSTITUTIONAL VALUES AND BEST PRACTICES
+------------------------------------------------------
+7.1 Institutional Values and Social Responsibilities
+  - Gender equity programmes (Women's Cell)
+  - Environmental consciousness (green audit, waste management)
+  - Human values and professional ethics courses
+  - Divyangjan (PwD) support measures
+
+7.2 Best Practices
+  - Two best practices per cycle documented in NAAC format
+  - Must show objectives, context, practice description, and evidence of success
+
+7.3 Institutional Distinctiveness
+  - Unique strengths of the institution
+  - Contribution to the local community and society
+
+NAAC GRADING SCALE (Overall CGPA)
+------------------------------------
+A++ → CGPA ≥ 3.76 (Accredited)
+A+  → CGPA 3.51–3.75
+A   → CGPA 3.01–3.50
+B++ → CGPA 2.76–3.00
+B+  → CGPA 2.51–2.75
+B   → CGPA 2.01–2.50
+C   → CGPA 1.51–2.00
+D   → Accreditation Denied (CGPA < 1.51)
+====================================
