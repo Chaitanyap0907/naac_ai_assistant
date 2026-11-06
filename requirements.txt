@@ -1,32 +1,45 @@
-# ─── Core Web Framework ────────────────────────────────────────────────────────
-fastapi==0.111.0
-uvicorn[standard]==0.30.1
-python-multipart==0.0.9
+# ══════════════════════════════════════════════════════════════════
+# requirements.txt  —  works for both local dev and Streamlit Cloud
+# ══════════════════════════════════════════════════════════════════
+
+# Streamlit
+streamlit==1.40.2
+
+# Web framework (local dev only — unused by Streamlit Cloud)
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
 jinja2==3.1.4
-aiofiles==23.2.1
+aiofiles==24.1.0
 
-# ─── IBM watsonx.ai SDK (Granite models – mandatory) ──────────────────────────
-ibm-watsonx-ai==1.0.8
-ibm-cloud-sdk-core==3.20.3
+# IBM watsonx.ai (mandatory)
+ibm-watsonx-ai==1.1.9
+ibm-cloud-sdk-core==3.22.0
 
-# ─── RAG / Vector Store ────────────────────────────────────────────────────────
-langchain==0.2.6
-langchain-community==0.2.6
-langchain-ibm==0.1.7
-chromadb==0.5.3
-sentence-transformers==3.0.1
+# LangChain stack (pinned for Python 3.11 compatibility)
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-ibm==0.3.3
+langchain-text-splitters==0.3.2
+langchain-chroma==0.1.4
+langchain-huggingface==0.1.2
 
-# ─── Document Parsing ──────────────────────────────────────────────────────────
-pypdf==4.2.0
+# Vector store
+chromadb==0.5.18
+
+# Embeddings / ML
+sentence-transformers==3.3.1
+
+# Document parsing
+pypdf==4.3.1
 python-docx==1.1.2
 openpyxl==3.1.5
-unstructured==0.14.6
 
-# ─── Utilities ─────────────────────────────────────────────────────────────────
+# Utilities
 python-dotenv==1.0.1
-pydantic==2.7.4
-pydantic-settings==2.3.4
-httpx==0.27.0
-tenacity==8.3.0
+pydantic==2.10.3
+pydantic-settings==2.6.1
+httpx==0.27.2
+tenacity==9.0.0
 loguru==0.7.2
-tqdm==4.66.4
+tqdm==4.67.0
