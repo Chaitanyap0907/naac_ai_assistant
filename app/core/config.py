@@ -1,9 +1,23 @@
 """
 app/core/config.py
 Application settings loaded from environment variables via pydantic-settings.
+Also reads from Streamlit secrets when running on Streamlit Cloud.
 """
 from functools import lru_cache
 from pydantic_settings import BaseSettings, SettingsConfigDict
+import os
+
+def _load_streamlit_secrets():
+    """Inject Streamlit secrets into os.environ so pydantic-settings picks them up."""
+    try:
+        import streamlit as st
+        for key, val in st.secrets.items():
+            if isinstance(val, str):
+                os.environ.setdefault(key.upper(), val)
+    except Exception:
+        pass  # Not running in Streamlit or no secrets configured
+
+_load_streamlit_secrets()
 
 
 class Settings(BaseSettings):
